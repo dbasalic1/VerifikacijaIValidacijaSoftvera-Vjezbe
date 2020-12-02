@@ -79,9 +79,9 @@ namespace Hypo_Banka
         /// <param name="r"></param>
         public double DajUkupanIznosNovcaNaSvimRačunima()
         {
-            if (racuni.Count == 0) throw new Exception();
+            if (racuni.Count == 0) throw new ArgumentException();
             bool sviBlokirani = racuni.All(r => r.Blokiran == true);
-            if (sviBlokirani) throw new Exception();
+            if (sviBlokirani) throw new ArgumentException();
             double suma = 0;
             foreach (Racun r in racuni) {
                 suma += r.StanjeRacuna;
@@ -91,7 +91,16 @@ namespace Hypo_Banka
 
         public bool SkiniIznosSaNekogOdRačuna(double ukupniIznos)
         {
-            throw new NotImplementedException();
+            foreach (Racun r in racuni)
+            {
+                
+                if (r.StanjeRacuna >= ukupniIznos)
+                {
+                    r.PromijeniStanjeRačuna("BANKAR12345", -ukupniIznos);
+                    return true;
+                }
+            }
+            throw new InvalidOperationException();
         }
 
         #endregion

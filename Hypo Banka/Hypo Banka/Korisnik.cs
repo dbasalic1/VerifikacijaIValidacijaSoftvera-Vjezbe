@@ -108,9 +108,9 @@ namespace Hypo_Banka
         /// </summary>
         public Tuple<string, string> AutomatskoGenerisanjePodataka()
         {
-            if (Ime == null || Prezime == null) throw new Exception();
+            if (Ime == null || Prezime == null) throw new ArgumentException();
             KorisnickoIme = Ime[0].ToString().ToLower() + Prezime.ToLower() + '1';
-            Lozinka = KorisnickoIme + brojač.ToString();
+            Lozinka = KorisnickoIme + "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" + ":" + brojač.ToString();
             return new Tuple<string, string>(KorisnickoIme, Lozinka);
         }
 

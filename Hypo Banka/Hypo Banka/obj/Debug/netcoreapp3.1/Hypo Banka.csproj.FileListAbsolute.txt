@@ -16,3 +16,12 @@ D:\D\Ehlimana\Documents\VVS\Zadaća br. 2 (Unit Testiranje)\Grupa 5\Hypo Banka\H
 D:\D\Ehlimana\Documents\VVS\Zadaća br. 2 (Unit Testiranje)\Grupa 5\Hypo Banka\Hypo Banka\obj\Debug\netcoreapp3.1\Hypo Banka.csproj.CoreCompileInputs.cache
 D:\D\Ehlimana\Documents\VVS\Zadaća br. 2 (Unit Testiranje)\Grupa 5\Hypo Banka\Hypo Banka\obj\Debug\netcoreapp3.1\Hypo Banka.dll
 D:\D\Ehlimana\Documents\VVS\Zadaća br. 2 (Unit Testiranje)\Grupa 5\Hypo Banka\Hypo Banka\obj\Debug\netcoreapp3.1\Hypo Banka.pdb
+D:\MATERIJALI\3\VVS\zadaća 2\VerifikacijaIValidacijaSoftvera-Vjezbe\Hypo Banka\Hypo Banka\bin\Debug\netcoreapp3.1\Hypo Banka.deps.json
+D:\MATERIJALI\3\VVS\zadaća 2\VerifikacijaIValidacijaSoftvera-Vjezbe\Hypo Banka\Hypo Banka\bin\Debug\netcoreapp3.1\Hypo Banka.dll
+D:\MATERIJALI\3\VVS\zadaća 2\VerifikacijaIValidacijaSoftvera-Vjezbe\Hypo Banka\Hypo Banka\bin\Debug\netcoreapp3.1\Hypo Banka.pdb
+D:\MATERIJALI\3\VVS\zadaća 2\VerifikacijaIValidacijaSoftvera-Vjezbe\Hypo Banka\Hypo Banka\obj\Debug\netcoreapp3.1\Hypo Banka.csprojAssemblyReference.cache
+D:\MATERIJALI\3\VVS\zadaća 2\VerifikacijaIValidacijaSoftvera-Vjezbe\Hypo Banka\Hypo Banka\obj\Debug\netcoreapp3.1\Hypo Banka.AssemblyInfoInputs.cache
+D:\MATERIJALI\3\VVS\zadaća 2\VerifikacijaIValidacijaSoftvera-Vjezbe\Hypo Banka\Hypo Banka\obj\Debug\netcoreapp3.1\Hypo Banka.AssemblyInfo.cs
+D:\MATERIJALI\3\VVS\zadaća 2\VerifikacijaIValidacijaSoftvera-Vjezbe\Hypo Banka\Hypo Banka\obj\Debug\netcoreapp3.1\Hypo Banka.csproj.CoreCompileInputs.cache
+D:\MATERIJALI\3\VVS\zadaća 2\VerifikacijaIValidacijaSoftvera-Vjezbe\Hypo Banka\Hypo Banka\obj\Debug\netcoreapp3.1\Hypo Banka.dll
+D:\MATERIJALI\3\VVS\zadaća 2\VerifikacijaIValidacijaSoftvera-Vjezbe\Hypo Banka\Hypo Banka\obj\Debug\netcoreapp3.1\Hypo Banka.pdb

@@ -4,7 +4,16 @@ using System;
 
 namespace Unit_Testovi
 {
-    [TestClass]
+    
+    public class Stub: IZahtjev
+    {
+        public bool DaLiJePovoljan()
+        {
+            return false;
+        }
+    }
+
+[TestClass]
     public class NoviTestovi
     {
         #region Zamjenski Objekti
@@ -20,7 +29,7 @@ namespace Unit_Testovi
 
             Kredit kredit = new Kredit(k, 50000, 1000, 0.05, DateTime.Now.AddYears(1));
 
-            IZahtjev zahtjev = new Zahtjev();
+            Stub zahtjev = new Stub();
 
             b.OdobriKredit(zahtjev, kredit);
 

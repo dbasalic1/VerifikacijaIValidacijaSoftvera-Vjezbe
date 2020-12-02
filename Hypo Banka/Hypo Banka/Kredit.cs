@@ -99,7 +99,16 @@ namespace Hypo_Banka
         public string ProvjeriStanjeOtplate()
 
         {
-            throw new NotImplementedException();
+            string rezultat = "Kredit koji se treba vratiti najkasnije na dan ";
+            string dan = "";
+            if (RokOtplate.Day < 10) dan += "0" + RokOtplate.Day;
+            else dan += RokOtplate.Day;
+            string mjesec = "";
+            if (RokOtplate.Month < 10) mjesec += "0" + RokOtplate.Month;
+            else mjesec += RokOtplate.Month;
+            rezultat += dan + "." + mjesec + "." + RokOtplate.Year + ".";
+            rezultat += " godine ima preostali iznos od " + Iznos + " KM. Iznos rate je " + Rata + " KM, po stopi od " + KamatnaStopa*100 + " %.";
+            return rezultat;
         }
 
         #endregion
