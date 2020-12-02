@@ -79,7 +79,14 @@ namespace Hypo_Banka
         /// <param name="r"></param>
         public double DajUkupanIznosNovcaNaSvimRačunima()
         {
-            throw new NotImplementedException();
+            if (racuni.Count == 0) throw new Exception();
+            bool sviBlokirani = racuni.All(r => r.Blokiran == true);
+            if (sviBlokirani) throw new Exception();
+            double suma = 0;
+            foreach (Racun r in racuni) {
+                suma += r.StanjeRacuna;
+            }
+            return suma;
         }
 
         public bool SkiniIznosSaNekogOdRačuna(double ukupniIznos)

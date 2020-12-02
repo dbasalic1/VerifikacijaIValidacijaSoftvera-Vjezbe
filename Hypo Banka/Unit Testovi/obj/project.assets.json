@@ -1716,12 +1716,11 @@
       ]
     },
     "Microsoft.CSharp/4.0.1": {
-      "sha512": "17h8b5mXa87XYKrrVqdgZ38JefSUqLChUQpXgSnpzsM0nDOhE40FTeNWOJ/YmySGV6tG6T8+hjz6vxbknHJr6A==",
+      "sha512": "BCgZSrmph46jdtmQGCyY7SsQ/FcOn9IilHvCrsjBuYnPd4pj2Mk2TP3hy5Tvot4oNw6489qydYinx+D21SPMCg==",
       "type": "package",
       "path": "microsoft.csharp/4.0.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3089,12 +3088,11 @@
       ]
     },
     "System.Dynamic.Runtime/4.0.11": {
-      "sha512": "db34f6LHYM0U0JpE+sOmjar27BnqTVkbLJhgfwMpTdgTigG/Hna3m2MYVwnFzGGKnEJk2UXFuoVTr8WUbU91/A==",
+      "sha512": "m0gHoZXYm6EJqBpG3iRYCVIz6TwERCdlA4wIH7l4VxYYDOMgfUTmHgakO+NXcis8De5mF6cB+jF13XG2pybwjQ==",
       "type": "package",
       "path": "system.dynamic.runtime/4.0.11",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5732,19 +5730,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ehlimana\\.nuget\\packages\\": {}
+    "C:\\Users\\Dzenan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\D\\Ehlimana\\Documents\\VVS\\Zadaća br. 2 (Unit Testiranje)\\Grupa 5\\Hypo Banka\\Unit Testovi\\Unit Testovi.csproj",
+      "projectUniqueName": "D:\\MATERIJALI\\3\\VVS\\zadaća 2\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Hypo Banka\\Unit Testovi\\Unit Testovi.csproj",
       "projectName": "Unit Testovi",
-      "projectPath": "D:\\D\\Ehlimana\\Documents\\VVS\\Zadaća br. 2 (Unit Testiranje)\\Grupa 5\\Hypo Banka\\Unit Testovi\\Unit Testovi.csproj",
-      "packagesPath": "C:\\Users\\Ehlimana\\.nuget\\packages\\",
-      "outputPath": "D:\\D\\Ehlimana\\Documents\\VVS\\Zadaća br. 2 (Unit Testiranje)\\Grupa 5\\Hypo Banka\\Unit Testovi\\obj\\",
+      "projectPath": "D:\\MATERIJALI\\3\\VVS\\zadaća 2\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Hypo Banka\\Unit Testovi\\Unit Testovi.csproj",
+      "packagesPath": "C:\\Users\\Dzenan\\.nuget\\packages\\",
+      "outputPath": "D:\\MATERIJALI\\3\\VVS\\zadaća 2\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Hypo Banka\\Unit Testovi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ehlimana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dzenan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5757,8 +5755,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\D\\Ehlimana\\Documents\\VVS\\Zadaća br. 2 (Unit Testiranje)\\Grupa 5\\Hypo Banka\\Hypo Banka\\Hypo Banka.csproj": {
-              "projectPath": "D:\\D\\Ehlimana\\Documents\\VVS\\Zadaća br. 2 (Unit Testiranje)\\Grupa 5\\Hypo Banka\\Hypo Banka\\Hypo Banka.csproj"
+            "D:\\MATERIJALI\\3\\VVS\\zadaća 2\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Hypo Banka\\Hypo Banka\\Hypo Banka.csproj": {
+              "projectPath": "D:\\MATERIJALI\\3\\VVS\\zadaća 2\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Hypo Banka\\Hypo Banka\\Hypo Banka.csproj"
             }
           }
         }
